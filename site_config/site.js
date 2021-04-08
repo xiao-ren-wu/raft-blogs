@@ -89,7 +89,7 @@ export default {
     ],
     disclaimer: {
       title: '免责声明',
-      content: '免责声明的具体内容',
+      content: '本网站所提供的信息，只供参考之用',
     },
     documentation: {
       title: '文档',
@@ -102,10 +102,10 @@ export default {
           text: '快速开始',
           link: '/zh-cn/docs/demo2.html',
         },
-        {
-          text: '开发者指南',
-          link: '/zh-cn/docs/dir/demo3.html',
-        },
+        // {
+        //   text: '开发者指南',
+        //   link: '/zh-cn/docs/dir/demo3.html',
+        // },
       ],
     },
     resources: {
@@ -115,12 +115,12 @@ export default {
           text: '博客',
           link: '/zh-cn/blog/index.html',
         },
-        {
-          text: '社区',
-          link: '/zh-cn/community/index.html',
-        },
+        // {
+        //   text: '社区',
+        //   link: '/zh-cn/community/index.html',
+        // },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2021 All Rights Reserved',
   },
 };

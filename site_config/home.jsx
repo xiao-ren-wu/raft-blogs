@@ -13,7 +13,7 @@ export default {
         },
         {
           text: '查看Github',
-          link: '',
+          link: 'https://github.com/xiao-ren-wu/raft',
           type: 'normal',
         },
       ],
@@ -158,7 +158,7 @@ export default {
     },
     users: {
       title: 'users',
-      desc: <span>some description</span>,
+      desc: <span>开发中,敬请期待...</span>,
       list: [
         '/img/users_alibaba.png',
         '/img/users_alibaba.png',

@@ -36,7 +36,7 @@ const propTypes = {
 };
 const defaultProps = {
   type: 'primary',
-  language: 'en-us',
+  language: 'zh-cn',
   onLanguageChange: noop,
 };
 
@@ -126,9 +126,9 @@ class Header extends React.Component {
         }
       >
         <div className="header-body">
-          <a href={getLink(`/${language}/index.html`)}>
-            <img className="logo" alt={siteConfig.name} title={siteConfig.name} src={getLink(logo)} />
-          </a>
+          {/*<a href={getLink(`/${language}/index.html`)}>*/}
+          {/*  <img className="logo" alt={siteConfig.name} title={siteConfig.name} src={getLink(logo)} />*/}
+          {/*</a>*/}
           {
             siteConfig.defaultSearch ?
             (
@@ -151,22 +151,22 @@ class Header extends React.Component {
               </div>
             ) : null
           }
-          {
-            onLanguageChange !== noop ?
-            (<span
-              className={
-                classnames({
-                  'language-switch': true,
-                  [`language-switch-${type}`]: true,
-                })
-              }
-              onClick={this.switchLang}
-            >
-              {languageSwitch.find(lang => lang.value === language).text}
-            </span>)
-            :
-            null
-          }
+          {/*{*/}
+          {/*  onLanguageChange !== noop ?*/}
+          {/*  (<span*/}
+          {/*    className={*/}
+          {/*      classnames({*/}
+          {/*        'language-switch': false,*/}
+          {/*        [`language-switch-${type}`]: false,*/}
+          {/*      })*/}
+          {/*    }*/}
+          {/*    onClick={this.switchLang}*/}
+          {/*  >*/}
+          {/*    {languageSwitch.find(lang => lang.value === language).text}*/}
+          {/*  </span>)*/}
+          {/*  :*/}
+          {/*  null*/}
+          {/*}*/}
           <div
             className={
               classnames({

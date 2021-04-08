@@ -94,17 +94,17 @@ class Home extends Language {
             <div className="right-part"><img src={getLink('/img/quick_start.png')} /></div>
           </div>
         </section>
-        <section className="users-section">
-          <h3>{dataSource.users.title}</h3>
-          <p>{dataSource.users.desc}</p>
-          <div className="users">
-          {
-            dataSource.users.list.map((user, i) => (
-              <img src={getLink(user)} key={i} />
-            ))
-          }
-          </div>
-        </section>
+        {/*<section className="users-section">*/}
+        {/*  <h3>{dataSource.users.title}</h3>*/}
+        {/*  <p>{dataSource.users.desc}</p>*/}
+        {/*  <div className="users">*/}
+        {/*  {*/}
+        {/*    dataSource.users.list.map((user, i) => (*/}
+        {/*      <img src={getLink(user)} key={i} />*/}
+        {/*    ))*/}
+        {/*  }*/}
+        {/*  </div>*/}
+        {/*</section>*/}
         <Footer logo="/img/dubbo_gray.png" language={language} />
       </div>
     );
