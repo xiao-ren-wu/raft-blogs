@@ -81,11 +81,11 @@ export default {
         text: '博客',
         link: '/zh-cn/blog/index.html',
       },
-      {
-        key: 'community',
-        text: '社区',
-        link: '/zh-cn/community/index.html',
-      },
+      // {
+      //   key: 'community',
+      //   text: '社区',
+      //   link: '/zh-cn/community/index.html',
+      // },
     ],
     disclaimer: {
       title: '免责声明',

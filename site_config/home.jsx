@@ -3,8 +3,8 @@ import React from 'react';
 export default {
   'zh-cn': {
     brand: {
-      brandName: '开源产品品牌名称',
-      briefIntroduction: '关于开源产品的简单介绍',
+      brandName: 'raft in java',
+      briefIntroduction: 'distributed consistency algorithm',
       buttons: [
         {
           text: '立即开始',
